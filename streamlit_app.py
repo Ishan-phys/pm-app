@@ -113,7 +113,7 @@ selected = option_menu(
 # ----------------------------- INPUT & SAVE PERIODS -----------------
 if selected == "Machine Information":
     st.header(f"Asset Information", divider=True)
-    st.image('artifacts/bearing.jpg', caption='Asset: IMS bearing test rig with sensors placed on each bearing.', use_column_width=True)
+    st.image('assets/bearing.jpg', caption='Asset: IMS bearing test rig with sensors placed on each bearing.', use_column_width=True)
     st.subheader('Asset Details:')
     st.text('Four bearings installed on a shaft run by an AC motor coupled to the shaft via rub belts.\nRotational Speed = 2000 RPM \nRadial Load = 6000 lbs (applied onto the shaft and bearing by a spring mechanism) \nAll bearings are force lubricated.')
     st.subheader('Data Details:')
